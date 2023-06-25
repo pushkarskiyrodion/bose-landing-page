@@ -17,7 +17,7 @@
     grid-template-columns: repeat(12, 1fr);
   }
 
-  .grid__item {
+  .grid__item-column {
     @for $start from 1 through 6 {
       @for $end from $start through 6 {
         @include onTablet {

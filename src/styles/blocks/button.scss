@@ -4,11 +4,10 @@
   align-items: center;
   width: 100%;
   height: 56px;
-  box-sizing: border-box;
 
   text-decoration: none;
-  background-color: $mainColor;
-  border: 3px solid $mainColor;
+  background-color: $dark-shade-color;
+  border: 3px solid $dark-shade-color;
   border-radius: 40px;
 
   font-family: "Inter", "Arial", sans-serif;
@@ -16,18 +15,18 @@
   font-weight: 700;
   line-height: 27px;
   text-align: center;
-  color: #fff;
+  color: $white-color;
 
   cursor: pointer;
   transition: all 0.45s;
 
   &:hover {
-    background: #fff;
-    color: $mainColor;
+    background: $white-color;
+    color: $dark-shade-color;
   }
 
   &:active {
-    background-color: #111;
-    color: #111;
+    background-color: $dark-gray-color;
+    color: $dark-gray-color;
   }
 }

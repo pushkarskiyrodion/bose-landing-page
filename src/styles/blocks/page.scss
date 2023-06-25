@@ -1,9 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
 .page {
   font-family: "Inter", "Arial", sans-serif;
   scroll-behavior: smooth;
 
   font-size: 16px;
-  color: $mainColor;
+  color: $dark-shade-color;
 
   &__content--with-menu {
     overflow: hidden;
@@ -32,7 +36,7 @@
 
     &-title {
       font-weight: 700;
-      color: $mainColor;
+      color: $dark-shade-color;
       letter-spacing: -1.5px;
       font-size: 28px;
       line-height: 32px;
